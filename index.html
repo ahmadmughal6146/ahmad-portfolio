@@ -52,6 +52,25 @@
 </head>
 <body>
 
+  <!-- Site Intro Preloader (Enter Animation) -->
+  <div id="site-preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo-wrapper">
+        <div class="preloader-spinner-ring-outer"></div>
+        <div class="preloader-spinner-ring"></div>
+        <img src="assets/images/brand-logo-gold.png" alt="Ahmad Graphixs" class="preloader-logo-img" />
+      </div>
+      <div class="preloader-brand-title">AHMAD GRAPHIXS GFX</div>
+      <div class="preloader-bar-wrap">
+        <div id="preloader-bar-fill" class="preloader-bar-fill"></div>
+      </div>
+      <div id="preloader-pct" class="preloader-pct">0%</div>
+    </div>
+  </div>
+
+  <!-- Background Interactive Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
   <!-- Custom Glowing Cursor -->
   <div id="custom-cursor" class="custom-cursor"></div>
   <div id="custom-cursor-dot" class="custom-cursor-dot"></div>
@@ -101,7 +120,7 @@
   <!-- Hero Section -->
   <section id="home" class="hero-section">
     <div class="container hero-grid">
-      <div class="hero-content-col">
+      <div class="hero-content-col reveal-slide-left">
         <div class="hero-availability-pill">
           <span class="pulse-dot"></span>
           <span>Available for Freelance & Contract Work</span>
@@ -120,12 +139,12 @@
         </p>
 
         <div class="hero-cta-group">
-          <a href="#portfolio" class="btn btn-primary">
+          <a href="#portfolio" class="btn btn-primary magnetic-btn">
             <span>Explore Work</span>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
           </a>
 
-          <a href="https://wa.me/923701768488?text=Hello%20Ahmad!%20I'm%20interested%20in%20working%20with%20you." target="_blank" class="btn btn-whatsapp">
+          <a href="https://wa.me/923701768488?text=Hello%20Ahmad!%20I'm%20interested%20in%20working%20with%20you." target="_blank" class="btn btn-whatsapp magnetic-btn">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
             <span>WhatsApp Quick Chat</span>
           </a>
@@ -147,7 +166,7 @@
         </div>
       </div>
 
-      <div class="hero-visual-container">
+      <div class="hero-visual-container reveal-slide-right">
         <div class="hero-visual-card">
           <img src="assets/images/hero-portrait.png" alt="Muhammad Ahmad — Graphic Designer & Frontend Developer" class="hero-main-img" />
           
@@ -196,13 +215,13 @@
   <!-- About Me Section -->
   <section id="about" class="about-section">
     <div class="container about-grid">
-      <div class="about-visual-col">
+      <div class="about-visual-col reveal-slide-left">
         <div class="about-img-frame">
           <img src="assets/media/3e88169f57c7f25b2876dc4e9b547a78.png" alt="Ahmad Mughal Creative Showcase" loading="lazy" />
         </div>
       </div>
 
-      <div class="about-content-col">
+      <div class="about-content-col reveal-slide-right">
         <span class="section-tag">ABOUT ME</span>
         <h2 class="section-title">About Me — Design with Purpose. Code with Precision.</h2>
         <p class="section-desc">
@@ -241,7 +260,7 @@
   <!-- Skills Matrix Section -->
   <section id="skills" class="skills-section">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header reveal-init">
         <span class="section-tag">Expertise & Tools</span>
         <h2 class="section-title">Comprehensive Skill Matrix</h2>
         <p class="section-desc">Mastery over industry-standard creative tools, frontend engineering stacks, and digital marketing strategies.</p>
@@ -256,7 +275,7 @@
   <!-- Portfolio Showcase Section -->
   <section id="portfolio" class="portfolio-section">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header reveal-init">
         <span class="section-tag">Featured Works</span>
         <h2 class="section-title">Selected Projects & Case Studies</h2>
         <p class="section-desc">Explore crafted monograms, corporate branding systems, viral social campaigns, and frontend web applications.</p>
@@ -283,7 +302,7 @@
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials-section">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header reveal-init">
         <span class="section-tag">Client Feedback</span>
         <h2 class="section-title">Trusted by Founders & Marketers</h2>
         <p class="section-desc">Real testimonials from business partners, agency directors, and brand owners.</p>
@@ -298,7 +317,7 @@
   <!-- Contact & Hire Me Section -->
   <section id="contact" class="contact-section">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header reveal-init">
         <span class="section-tag">Get In Touch</span>
         <h2 class="section-title">Have a Query or Project in Mind?</h2>
         <p class="section-desc">Let's drop your question! Whether you need a full brand overhaul, social media management, or a website, I'm ready to collaborate.</p>
@@ -306,7 +325,7 @@
 
       <div class="contact-grid">
         <!-- Left: Direct Info & Timezone -->
-        <div class="contact-info-column">
+        <div class="contact-info-column reveal-slide-left">
           <div class="contact-direct-card">
             <h3 style="font-size: 1.3rem; font-weight: 700;">Direct Contact Information</h3>
             
@@ -354,7 +373,7 @@
         </div>
 
         <!-- Right: Interactive Form -->
-        <div class="contact-form-card">
+        <div class="contact-form-card reveal-slide-right">
           <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1.5rem;">Send a Project Inquiry</h3>
           <form id="contact-form">
             <div class="form-group">
@@ -384,7 +403,7 @@
               <textarea id="contact-message" class="form-textarea" placeholder="Tell me about your goals, timeline, or requirements..." required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary w-full">
+            <button type="submit" class="btn btn-primary w-full magnetic-btn">
               <span>Send Message & Connect on WhatsApp</span>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
             </button>
