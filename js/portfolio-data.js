@@ -6,29 +6,30 @@
 const PORTFOLIO_DATA = [
   {
     id: "logo-monogram-premium",
-    title: "Timeless Monogram & Luxury Identity",
+    title: "Brand Identity & Monogram Design Systems",
     category: "logo",
     categoryLabel: "Logo Design",
-    thumbnail: "assets/media/58acad286797eb926b2c9e720957b176.png",
-    heroImage: "assets/media/58acad286797eb926b2c9e720957b176.png",
+    thumbnail: "assets/images/logo-design-artisen-ag.jpg",
+    heroImage: "assets/images/logo-design-artisen-ag.jpg",
     gallery: [
-      "assets/media/58acad286797eb926b2c9e720957b176.png",
-      "assets/media/b1aeebbc5ec7dea00ab7841270f67cf6.png",
-      "assets/media/274cd74da2cda71a9816903fea3fd047.png"
+      "assets/images/logo-design-artisen-ag.jpg",
+      "assets/images/logo-design-nexora-tech.jpg",
+      "assets/images/logo-design-aurora-beauty.jpg",
+      "assets/images/logo-design-luxury-suite.jpg"
     ],
-    tagline: "Timeless monogram built for premium recognition",
-    description: "A sophisticated brand mark crafted for luxury branding and consulting. Blends geometric precision with fluid serif curves to establish authority, exclusivity, and lasting recognition.",
-    client: "Ahmad Graphixs Exclusive / Monogram Series",
+    tagline: "Timeless monograms & full brand identity systems built for premium recognition",
+    description: "A master collection of custom logos and complete brand identity kits crafted by Ahmad Graphixs — featuring the minimalist ARTISEN (AG Monogram Studio), futuristic NEXORA Tech Solutions, luxury floral AURORA Timeless Beauty, and a premium suite including LUMINA, BELLEZA, WILDERRA, HARIA, and RIVAN Architects. Complete with stationery, 3D packaging mockups, typography rules, and color palettes.",
+    client: "Ahmad Graphixs Brand Architecture Collection",
     duration: "2 Weeks",
     year: "2025",
-    tools: ["Adobe Illustrator", "Adobe Photoshop", "Vector Grid Systems"],
+    tools: ["Adobe Illustrator", "Adobe Photoshop", "Vector Grid Systems", "Brand Guidelines"],
     deliverables: [
-      "Vector Master Logos (.AI, .EPS, .SVG)",
-      "Dark & Light Mode Variants",
-      "Brand Mark Typography Guidelines",
-      "High-Resolution Stationery Mockups"
+      "Vector Master Logos (.AI, .EPS, .SVG, .PNG)",
+      "Stationery Kits (Business Cards, Letterhead, Envelopes, ID Badges)",
+      "3D Product Packaging, Shopping Bags & Merch Mockups",
+      "Brand Style Guides, Typography Specs & Color Palettes"
     ],
-    highlight: "Featured as top monogram in Behance portfolio with 1,200+ appreciations."
+    highlight: "Showcases diverse design execution across luxury studios, tech enterprises, beauty brands, and architectural firms."
   },
   {
     id: "social-media-viral-creatives",
