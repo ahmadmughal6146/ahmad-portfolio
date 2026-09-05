@@ -65,9 +65,7 @@ const PORTFOLIO_DATA = [
     thumbnail: "assets/media/74e8b9a572608d1c059fe234c14a160f.png",
     heroImage: "assets/media/74e8b9a572608d1c059fe234c14a160f.png",
     gallery: [
-      "assets/media/74e8b9a572608d1c059fe234c14a160f.png",
-      "assets/media/2c2343c8f67b62bf5d25eed2cf625a42.png",
-      "assets/media/f310cc4ea53962db277f8d843ec09e8e.png"
+      "assets/media/74e8b9a572608d1c059fe234c14a160f.png"
     ],
     tagline: "Clean geometric mark elevating corporate brand identity",
     description: "An end-to-end brand identity architecture featuring mathematical grid proportions, cohesive color theory, customized iconography, and modern stationery applications.",

@@ -62,11 +62,12 @@ class ProjectLightbox {
     const modalBody = document.getElementById('modal-content-wrapper');
     if (!modalBody) return;
 
-    const galleryThumbnails = project.gallery.map((img, idx) => `
+    const hasMultiple = project.gallery.length > 1;
+    const galleryThumbnails = hasMultiple ? project.gallery.map((img, idx) => `
       <button class="thumb-btn ${idx === 0 ? 'active' : ''}" data-thumb-index="${idx}" aria-label="View slide ${idx + 1}">
         <img src="${img}" alt="${project.title} preview ${idx + 1}" loading="lazy" />
       </button>
-    `).join('');
+    `).join('') : '';
 
     const deliverablesList = project.deliverables.map(d => `
       <li>
@@ -83,6 +84,7 @@ class ProjectLightbox {
         <div class="modal-visual-side">
           <div class="main-gallery-view">
             <img id="active-gallery-image" src="${project.gallery[0]}" alt="${project.title}" />
+            ${hasMultiple ? `
             <div class="gallery-nav-overlay">
               <button id="gallery-prev" class="gallery-arrow" aria-label="Previous image">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
@@ -92,10 +94,13 @@ class ProjectLightbox {
               </button>
             </div>
             <span class="gallery-counter"><span id="curr-img-num">1</span> / ${project.gallery.length}</span>
+            ` : ''}
           </div>
+          ${hasMultiple ? `
           <div class="gallery-thumbnails">
             ${galleryThumbnails}
           </div>
+          ` : ''}
         </div>
 
         <!-- Project Meta & Story Side -->
