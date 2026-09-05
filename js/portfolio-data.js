@@ -59,27 +59,32 @@ const PORTFOLIO_DATA = [
   },
   {
     id: "geometric-brand-identity",
-    title: "Geometric Brand Identity & Visual System",
+    title: "ALRAZI Luxury Perfumes — Brand Identity & Packaging Design",
     category: "branding",
     categoryLabel: "Brand Identity",
-    thumbnail: "assets/media/74e8b9a572608d1c059fe234c14a160f.png",
-    heroImage: "assets/media/74e8b9a572608d1c059fe234c14a160f.png",
+    thumbnail: "assets/images/brand-identity-alrazi-1.jpg",
+    heroImage: "assets/images/brand-identity-alrazi-1.jpg",
     gallery: [
-      "assets/media/74e8b9a572608d1c059fe234c14a160f.png"
+      "assets/images/brand-identity-alrazi-1.jpg",
+      "assets/images/brand-identity-alrazi-2.jpg",
+      "assets/images/brand-identity-alrazi-3.jpg",
+      "assets/images/brand-identity-alrazi-4.jpg",
+      "assets/images/brand-identity-alrazi-5.jpg"
     ],
-    tagline: "Clean geometric mark elevating corporate brand identity",
-    description: "An end-to-end brand identity architecture featuring mathematical grid proportions, cohesive color theory, customized iconography, and modern stationery applications.",
-    client: "Apex Digital Solutions",
+    tagline: "End-to-end luxury product branding, 3D packaging, exploded anatomy & editorial showcase",
+    description: "A complete luxury brand identity and commercial packaging system for ALRAZI 'BLUE FOR MEN' Eau De Parfum. Features bespoke Arabic calligraphy emblem design, custom glass bottle and gold collar 3D mockups, detailed component breakdown (Cap, Spray Pump, Collar, Bottle, Label, Base), splash levitation visual art, and a LUXE Magazine international cover feature.",
+    client: "ALRAZI Luxury Perfumes (alrazi.pk)",
     duration: "3 Weeks",
-    year: "2024",
-    tools: ["Adobe Illustrator", "Adobe Photoshop", "InDesign"],
+    year: "2025",
+    tools: ["Adobe Photoshop", "Adobe Illustrator", "3D Product Visualization", "Commercial Art Direction"],
     deliverables: [
-      "Complete Brand Style Guide (PDF)",
-      "Custom Icon Set & Color Palette",
-      "Business Cards, Letterhead, Envelopes",
-      "Social Media Brand Kit"
+      "Bespoke Arabic Calligraphy Emblem & Serif Typography",
+      "Luxury Glass Bottle & Gold Accent Packaging Design",
+      "Exploded Component Anatomy & Product Engineering Specs",
+      "Commercial Levitation & Water Splash 3D Visuals",
+      "LUXE International Magazine Cover & Editorial Spread"
     ],
-    highlight: "Created scalable design tokens and visual consistency across all corporate touchpoints."
+    highlight: "Showcases world-class luxury cosmetic & fragrance art direction with high-conversion commercial packaging."
   },
   {
     id: "brochures-marketing-collateral",
